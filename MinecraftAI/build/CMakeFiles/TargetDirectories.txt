@@ -1,4 +1,0 @@
-C:/Users/luket/OneDrive/Desktop/MinecraftAI/build/CMakeFiles/minecraft_ai.dir
-C:/Users/luket/OneDrive/Desktop/MinecraftAI/build/CMakeFiles/INSTALL.dir
-C:/Users/luket/OneDrive/Desktop/MinecraftAI/build/CMakeFiles/ALL_BUILD.dir
-C:/Users/luket/OneDrive/Desktop/MinecraftAI/build/CMakeFiles/ZERO_CHECK.dir
