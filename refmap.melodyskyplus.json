@@ -1,0 +1,46 @@
+{
+  "mappings": {
+    "net/mirolls/melodyskyplus/mixin/minecraft/NetWorkManagerMixin": {
+      "sendPacket(Lnet/minecraft/network/Packet;)V": "Lnet/minecraft/network/NetworkManager;func_179290_a(Lnet/minecraft/network/Packet;)V",
+      "sendPacket(Lnet/minecraft/network/Packet;Lio/netty/util/concurrent/GenericFutureListener;[Lio/netty/util/concurrent/GenericFutureListener;)V": "Lnet/minecraft/network/NetworkManager;func_179288_a(Lnet/minecraft/network/Packet;Lio/netty/util/concurrent/GenericFutureListener;[Lio/netty/util/concurrent/GenericFutureListener;)V",
+      "channelRead0*": "Lnet/minecraft/network/NetworkManager;channelRead0(Lio/netty/channel/ChannelHandlerContext;Lnet/minecraft/network/Packet;)V"
+    },
+    "net/mirolls/melodyskyplus/mixin/minecraft/GuiDisconnectedMixin": {
+      "actionPerformed": "Lnet/minecraft/client/gui/GuiDisconnected;func_146284_a(Lnet/minecraft/client/gui/GuiButton;)V",
+      "initGui": "Lnet/minecraft/client/gui/GuiDisconnected;func_73866_w_()V"
+    },
+    "net/mirolls/melodyskyplus/mixin/minecraft/GuiConnectingMixin": {
+      "connect": "Lnet/minecraft/client/multiplayer/GuiConnecting;func_146367_a(Ljava/lang/String;I)V"
+    }
+  },
+  "data": {
+    "notch": {
+      "net/mirolls/melodyskyplus/mixin/minecraft/NetWorkManagerMixin": {
+        "sendPacket(Lnet/minecraft/network/Packet;)V": "Lek;a(Lff;)V",
+        "sendPacket(Lnet/minecraft/network/Packet;Lio/netty/util/concurrent/GenericFutureListener;[Lio/netty/util/concurrent/GenericFutureListener;)V": "Lek;a(Lff;Lio/netty/util/concurrent/GenericFutureListener;[Lio/netty/util/concurrent/GenericFutureListener;)V",
+        "channelRead0*": "Lek;a(Lio/netty/channel/ChannelHandlerContext;Lff;)V"
+      },
+      "net/mirolls/melodyskyplus/mixin/minecraft/GuiDisconnectedMixin": {
+        "actionPerformed": "Laxh;a(Lavs;)V",
+        "initGui": "Laxh;b()V"
+      },
+      "net/mirolls/melodyskyplus/mixin/minecraft/GuiConnectingMixin": {
+        "connect": "Lawz;a(Ljava/lang/String;I)V"
+      }
+    },
+    "searge": {
+      "net/mirolls/melodyskyplus/mixin/minecraft/NetWorkManagerMixin": {
+        "sendPacket(Lnet/minecraft/network/Packet;)V": "Lnet/minecraft/network/NetworkManager;func_179290_a(Lnet/minecraft/network/Packet;)V",
+        "sendPacket(Lnet/minecraft/network/Packet;Lio/netty/util/concurrent/GenericFutureListener;[Lio/netty/util/concurrent/GenericFutureListener;)V": "Lnet/minecraft/network/NetworkManager;func_179288_a(Lnet/minecraft/network/Packet;Lio/netty/util/concurrent/GenericFutureListener;[Lio/netty/util/concurrent/GenericFutureListener;)V",
+        "channelRead0*": "Lnet/minecraft/network/NetworkManager;channelRead0(Lio/netty/channel/ChannelHandlerContext;Lnet/minecraft/network/Packet;)V"
+      },
+      "net/mirolls/melodyskyplus/mixin/minecraft/GuiDisconnectedMixin": {
+        "actionPerformed": "Lnet/minecraft/client/gui/GuiDisconnected;func_146284_a(Lnet/minecraft/client/gui/GuiButton;)V",
+        "initGui": "Lnet/minecraft/client/gui/GuiDisconnected;func_73866_w_()V"
+      },
+      "net/mirolls/melodyskyplus/mixin/minecraft/GuiConnectingMixin": {
+        "connect": "Lnet/minecraft/client/multiplayer/GuiConnecting;func_146367_a(Ljava/lang/String;I)V"
+      }
+    }
+  }
+}

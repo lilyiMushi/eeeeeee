@@ -1,0 +1,18 @@
+[
+  {
+    "modid": "melodyskyplus",
+    "name": "Melody Sky Plus",
+    "description": "Melody+ Makes Macro Work Better!",
+    "version": "1.3.1",
+    "mcversion": "1.8.9",
+    "url": "https://melodysky.plus/",
+    "updateUrl": "",
+    "authorList": [
+      "liangmimi"
+    ],
+    "credits": "",
+    "logoFile": "",
+    "screenshots": [],
+    "dependencies": []
+  }
+]
